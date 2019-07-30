@@ -1,0 +1,90 @@
+# Blender MTL File: 'Neo.blend'
+# Material Count: 8
+
+newmtl belt
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.882876 0.814853 0.598483
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\belt_00_00_00.png
+
+newmtl boots
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.904128 0.696736 0.408233
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\boots.png
+
+newmtl coat
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.744508 0.700432 0.401239
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\coat.png
+
+newmtl facefeatures
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.580883 0.889786 0.993269
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\facefeatures.png
+
+newmtl head
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.601932 0.970799 0.830083
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\face.png
+
+newmtl pantglass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.935901 0.850509 0.865610
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\pantglass.png
+
+newmtl shirt_hands
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.446494 0.504364 0.454760
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\shirt_hands.png
+
+newmtl shirts
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.807803 0.812782 0.454116
+Ks 0.500000 0.500000 0.500000
+Ke 0.0 0.0 0.0
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd Texture\\shirt_hands.png
