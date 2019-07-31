@@ -640,6 +640,31 @@ PrefabInstance:
       propertyPath: ShapeModule.m_Scale.z
       value: 2.04
       objectReference: {fileID: 0}
+    - target: {fileID: 198279101275435388, guid: 9e03786a9517b604d8e930182607a128,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 198279101275435388, guid: 9e03786a9517b604d8e930182607a128,
+        type: 3}
+      propertyPath: VelocityModule.speedModifier.scalar
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 198279101275435388, guid: 9e03786a9517b604d8e930182607a128,
+        type: 3}
+      propertyPath: lengthInSec
+      value: 20.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198279101275435388, guid: 9e03786a9517b604d8e930182607a128,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 198279101275435388, guid: 9e03786a9517b604d8e930182607a128,
+        type: 3}
+      propertyPath: InitialModule.startLifetime.minScalar
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 199503414395959952, guid: 9e03786a9517b604d8e930182607a128,
         type: 3}
       propertyPath: m_Flip.x
@@ -854,7 +879,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-70150
+  m_Name: pb_Mesh-1420
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1014,7 +1039,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-70154
+  m_Name: pb_Mesh-1424
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2052,6 +2077,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.434
       objectReference: {fileID: 0}
+    - target: {fileID: 4956629646540635299, guid: 3d7a0b8fc2fc5864ba9ca89d034eed40,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4956629646504793510, guid: 3d7a0b8fc2fc5864ba9ca89d034eed40,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -2262,11 +2292,6 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4956629646540635299, guid: 3d7a0b8fc2fc5864ba9ca89d034eed40,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4956629646540635301, guid: 3d7a0b8fc2fc5864ba9ca89d034eed40,
         type: 3}
       propertyPath: m_Sprite
@@ -2311,7 +2336,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-70152
+  m_Name: pb_Mesh-1422
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
