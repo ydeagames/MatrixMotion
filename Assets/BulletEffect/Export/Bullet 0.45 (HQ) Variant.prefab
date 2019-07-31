@@ -15,7 +15,7 @@ MonoBehaviour:
   wavePrefab: {fileID: 1574588421025051069, guid: d16b7acd23c68534389800b826647a04,
     type: 3}
   lifeTime: 5
-  speed: 15
+  speed: 10
   emitRate: 1
   emitNum: 2
 --- !u!1001 &2107077044875593567

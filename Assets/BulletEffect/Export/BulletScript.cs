@@ -22,7 +22,7 @@ public class BulletScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.position +=  new Vector3(0, 0, speed * Time.fixedDeltaTime);
+        transform.localPosition +=  new Vector3(0, 0, speed * Time.fixedDeltaTime);
 
         time += Time.fixedDeltaTime;
 
@@ -41,5 +41,6 @@ public class BulletScript : MonoBehaviour
                 wave.transform.position = Vector3.Lerp(prevPos, transform.position, (i + 1.0f) / emitNum);
             }
         }
+        prevPos = transform.position;
     }
 }
