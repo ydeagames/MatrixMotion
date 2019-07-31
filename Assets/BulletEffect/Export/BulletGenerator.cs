@@ -31,7 +31,7 @@ public class BulletGenerator : MonoBehaviour
 
         if (bulletData[index].time <= time)
         {
-            GameObject obj = Instantiate(prefab);
+            GameObject obj = Instantiate(prefab/*, transform*/);
             obj.transform.transform.position = transform.position;
             obj.transform.localEulerAngles = bulletData[index].angle;
             index++;

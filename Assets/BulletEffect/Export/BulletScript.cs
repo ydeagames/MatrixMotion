@@ -36,7 +36,7 @@ public class BulletScript : MonoBehaviour
         {
             for (int i = 0; i < emitNum; i++)
             {
-                Debug.Log(Time.frameCount);
+                //Debug.Log(Time.frameCount);
                 GameObject wave = Instantiate(wavePrefab);
                 wave.transform.position = Vector3.Lerp(prevPos, transform.position, (i + 1.0f) / emitNum);
             }
